@@ -11,7 +11,7 @@
  * Plugin Name: Youtube Videos Gallery
  * Plugin URI:  https://cafalco96.github.io/
  * Description: Brings a gallery of YouTube videos to your WordPress site.
- * Version:     1.0.0
+ * Version:     1.0.1
  * Author:      Carlos Falconi
  * Author URI:  https://cafalco96.github.io/
  * Text Domain: youtube-video-gallery
