@@ -14,7 +14,6 @@
 
 .gvy_video {
   margin-right: 0;
-  align-content: center;
 }
 
 @media (min-width: 768px) {
@@ -23,9 +22,9 @@
   }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 992px) {
   .lista-videos {
-    grid-template-columns: repeat(4, minmax(200px, 1fr));
+    grid-template-columns: repeat(3, 1fr);
     gap: 20px;
   }
 }
