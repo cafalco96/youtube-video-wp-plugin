@@ -26,7 +26,6 @@ function gvy_render_metabox_fields($post)
         value="<?php if (!empty($yvg_video_record_meta['id_video']))
           echo esc_attr($yvg_video_record_meta['id_video'][0]); ?>">
     </div>
-    <br>
     <div class="form-group">
       <label for="detalles"><?php esc_html_e('Details', 'youtube-video-gallery'); ?></label>
       <?php
@@ -40,7 +39,6 @@ function gvy_render_metabox_fields($post)
       wp_editor($contenido, $editor, $settings);
       ?>
     </div>
-    <br>
     <?php if (isset($yvg_video_record_meta['id_video'][0])): ?>
       <iframe width="560" height="315" src="https://www.youtube.com/embed/<?= esc_attr($yvg_video_record_meta['id_video'][0]); ?>"
         title="YouTube video player" frameborder="0"
